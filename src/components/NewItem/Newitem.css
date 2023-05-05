@@ -1,0 +1,112 @@
+.new-item-card{
+    display:flex;
+    padding: 20px;
+    background: #fff;
+    margin-bottom: 20px; 
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: soild;
+    border-width: 2px;
+    border-radius: 10px;
+    padding: 25px;
+      
+}
+
+.checkbox{
+    margin-right: 20px;
+}
+.new-item-card input{
+    width: 100%;
+    font-size: 15px;
+    border:0;
+    border-bottom: 2px solid;
+    padding: 6px;
+}
+
+.new-item-card .form-container{
+    flex-grow: 1;
+}
+
+.new-item-card input:focus{
+    outline: none;
+}
+
+
+.button-container{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.button-container button{
+    padding: 10px 20px;
+}
+
+
+.btn-save{
+    border:none;
+    border-width: 2px;
+    border-radius: 10px;
+    background: #34e274aa;
+}
+
+.btn-clear{
+    border: none;
+    border-radius: 10px;
+}
+
+.button-container button:hover{
+    cursor: pointer;
+    transition: box-shadow ease-in 0.6s ;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.cls-badge{
+    display: flex;
+    gap:20px;
+}
+
+.badge1 {
+    margin-top: 20px;
+    margin-left: 0;
+    border: solid;
+    border-radius: 10px;
+    border-width: 1px;
+    padding: 10px;
+    width: 70px;
+    text-align: center;
+}
+
+.badge1.High{
+    background:#e0171733 ;
+    color:red;
+}
+
+.badge1.Medium{
+    background: #FFA800;
+}
+.badge1.Low{
+    background: #44B400;
+}
+
+.badge1:hover{
+    cursor: pointer;
+}
+
+.badge1.High.selected{
+    color:red;
+    background: #ffffff51;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.badge1.Medium.selected{
+    color:#FFA800;
+    background-color: #ffffff51;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.badge1.Low.selected{
+    color:#44B400;
+    background-color: #ffffff51;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
